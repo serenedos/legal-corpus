@@ -1,0 +1,158 @@
+{
+  "version": "0.1.0",
+  "documents": {
+    "gk1": {
+      "manifest_key": "1",
+      "prefix": "part1",
+      "name": "Гражданский кодекс Российской Федерации. Часть первая",
+      "source_a": {"hash": "ba747b7c430fdfb9405741d818463a26af1577a680f7a9ab6318cc6f4faa1121", "dridx": 495930, "nd": "102033239"}
+    },
+    "gk2": {
+      "manifest_key": "2",
+      "prefix": "part2",
+      "name": "Гражданский кодекс Российской Федерации. Часть вторая",
+      "source_a": {"hash": "c5515b06c932bdfbd67b34f5b856bb8317deaabded3eacae2ebadfd4c6703785", "dridx": 493400, "nd": "102039276"}
+    },
+    "gk3": {
+      "manifest_key": "3",
+      "prefix": "part3",
+      "name": "Гражданский кодекс Российской Федерации. Часть третья",
+      "source_a": {"hash": "4420d99c9eb3a210be9c946b1668b59acfb944f1129f0beaf1bd82d03449122c", "dridx": 475782, "nd": "102073578"}
+    },
+    "gk4": {
+      "manifest_key": "4",
+      "prefix": "part4",
+      "name": "Гражданский кодекс Российской Федерации. Часть четвертая",
+      "source_a": {"hash": "3edc1b4f0e70ca1c9191422c7c01743f4316210d72f59b4a45581dd70060fb13", "dridx": 475868, "nd": "102110716"}
+    },
+    "apk": {
+      "manifest_key": "apk",
+      "prefix": "apk",
+      "name": "Арбитражный процессуальный кодекс Российской Федерации",
+      "source_a": {"hash": "2464a0020ca4de3955dedd4369ba3d1bbbc846a28422a1b7c06ff6098086e8c3", "dridx": 483504, "nd": "102079219"}
+    },
+    "gpk": {
+      "manifest_key": "gpk",
+      "prefix": "gpk",
+      "name": "Гражданский процессуальный кодекс Российской Федерации",
+      "source_a": {"hash": "34099dcc0eb7647de8e2af5a8ff35414410745ba6b4f742a81842946c1a6670e", "dridx": 496093, "nd": "102078828"}
+    },
+    "zk": {
+      "manifest_key": "zk",
+      "prefix": "zk",
+      "name": "Земельный кодекс Российской Федерации",
+      "source_a": {"hash": "f7e8a05ab96295ade2be3c550c15fdb66646f0b16f0f65c5aad57b59577acb74", "dridx": 486035, "nd": "102073184"}
+    },
+    "grk": {
+      "manifest_key": "grk",
+      "prefix": "grk",
+      "name": "Градостроительный кодекс Российской Федерации",
+      "source_a": {"hash": "fc01bd4ee09272d641c80b86f8be9f750ca1137e1402dd267b5b991e64ad45b1", "dridx": 477703, "nd": "102090643"}
+    },
+    "upk": {
+      "manifest_key": "upk",
+      "prefix": "upk",
+      "name": "Уголовно-процессуальный кодекс Российской Федерации",
+      "source_a": {"hash": "fe66afca01e13d9cd5c9372505774708c90daa44c9410084df9c1b64e0635a03", "dridx": 495402, "nd": "102073942"}
+    },
+    "koap": {
+      "manifest_key": "koap",
+      "prefix": "koap",
+      "name": "Кодекс Российской Федерации об административных правонарушениях",
+      "source_a": {"hash": "6639c6c6580e8aa0bdf84170d25823669dfb6a4144b03da245ef4889f24765c0", "dridx": 496100, "nd": "102074277"}
+    },
+    "sk": {
+      "manifest_key": "sk",
+      "prefix": "sk",
+      "name": "Семейный кодекс Российской Федерации",
+      "source_a": {"hash": "67c8f9935a6c27bd4075a7e8c1965e7acabbdf019e8dcf764d9203a17ddfcf67", "dridx": 491992, "nd": "102038925"}
+    },
+    "nk1": {
+      "manifest_key": "nk1",
+      "prefix": "nk1",
+      "name": "Налоговый кодекс Российской Федерации. Часть первая",
+      "act": "Федеральный закон от 31.07.1998 № 146-ФЗ",
+      "source_a": {"provider": "actual.pravo.gov.ru", "hash": "b113c2e08341853ef53a8dad4585b513d96f85e0f3d0d246a25ecf52e40608db", "docid": 44707, "dridx": 495415, "metadata_status": "verified"}
+    },
+    "nk2": {
+      "manifest_key": "nk2",
+      "prefix": "nk2",
+      "name": "Налоговый кодекс Российской Федерации. Часть вторая",
+      "act": "Федеральный закон от 05.08.2000 № 117-ФЗ",
+      "source_a": {"provider": "actual.pravo.gov.ru", "hash": "6d30a92f830312a1b62d0a002c635c3e667c52e1059a82525dd65cb8e2bbe0a6", "docid": 57056, "dridx": 496111, "metadata_status": "verified"}
+    },
+    "zhk": {
+      "manifest_key": "zhk",
+      "prefix": "zhk",
+      "name": "Жилищный кодекс Российской Федерации",
+      "act": "Федеральный закон от 29.12.2004 № 188-ФЗ",
+      "source_a": {"provider": "actual.pravo.gov.ru", "hash": "8b4a1920bd1b392ecc9684dc74ddebb02da5af465df06bc4a7ff8c2baf3915ce", "docid": 80781, "dridx": 488169, "metadata_status": "verified"}
+    },
+    "vk": {
+      "manifest_key": "vk",
+      "prefix": "vk",
+      "name": "Водный кодекс Российской Федерации",
+      "act": "Федеральный закон от 03.06.2006 № 74-ФЗ",
+      "source_a": {"provider": "actual.pravo.gov.ru", "hash": "22ab398631ebf15f4c8e7cfbc229e36cd2c98f61dd095934c64eb2106d370190", "docid": 96539, "dridx": 496074, "metadata_status": "verified"}
+    },
+    "lk": {
+      "manifest_key": "lk",
+      "prefix": "lk",
+      "name": "Лесной кодекс Российской Федерации",
+      "act": "Федеральный закон от 04.12.2006 № 200-ФЗ",
+      "source_a": {"provider": "actual.pravo.gov.ru", "hash": "d7e701370b68103b6266adeef0600c62b8fdd7c8517eb57fcfdf22995ab90958", "docid": 99826, "dridx": 496070, "metadata_status": "verified"}
+    },
+    "kas": {
+      "manifest_key": "kas",
+      "prefix": "kas",
+      "name": "Кодекс административного судопроизводства Российской Федерации",
+      "act": "Федеральный закон от 08.03.2015 № 21-ФЗ",
+      "source_a": {"provider": "actual.pravo.gov.ru", "hash": "301b8e7807e422d78de841e939939cb07d46851f945e2039d13fa8b38623557f", "docid": 170464, "dridx": 490431, "metadata_status": "verified"}
+    },
+    "tk": {
+      "manifest_key": "tk",
+      "prefix": "tk",
+      "name": "Трудовой кодекс Российской Федерации",
+      "act": "Федеральный закон от 30.12.2001 № 197-ФЗ",
+      "source_a": {"provider": "actual.pravo.gov.ru", "hash": "03bdee8f44a71247d7ba3342484326dbc3fa292d3caae9f88ada4b1ee38c20d9", "docid": 64284, "dridx": 492286, "metadata_status": "verified"}
+    },
+    "uk": {
+      "manifest_key": "uk",
+      "prefix": "uk",
+      "name": "Уголовный кодекс Российской Федерации",
+      "act": "Федеральный закон от 13.06.1996 № 63-ФЗ",
+      "source_a": {"provider": "actual.pravo.gov.ru", "hash": "f29a592d348b400651a6760273edea9dfcbb75f4d56777c1c5b99233244b404c", "docid": 31864, "dridx": 496140, "metadata_status": "verified"}
+    }
+  },
+  "profiles": {
+    "min": [
+      "gk1",
+      "gk2",
+      "gk3",
+      "gk4",
+      "apk",
+      "gpk"
+    ],
+    "max": [
+      "gk1",
+      "gk2",
+      "gk3",
+      "gk4",
+      "apk",
+      "gpk",
+      "zk",
+      "grk",
+      "upk",
+      "koap",
+      "sk",
+      "nk1",
+      "nk2",
+      "zhk",
+      "vk",
+      "lk",
+      "kas",
+      "tk",
+      "uk"
+    ]
+  }
+}

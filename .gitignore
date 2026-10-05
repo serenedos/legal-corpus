@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Installed corpus data can be large; keep the tool and catalog versioned.
+raw/
+text/
+articles/
+MANIFEST.json
