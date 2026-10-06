@@ -142,7 +142,7 @@ def sha256_bytes(data: bytes) -> str:
 def source_a_get(url: str, timeout: int = 180) -> bytes:
     last_error: Exception | None = None
     for attempt in range(1, 11):
-        request = urllib.request.Request(url, headers={"User-Agent": "legal-corpus/0.1"})
+        request = urllib.request.Request(url, headers={"User-Agent": "legal-corpus/0.1.1"})
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 return response.read()
@@ -235,7 +235,7 @@ def cmd_fetch(args: argparse.Namespace) -> int:
     root.mkdir(parents=True, exist_ok=True)
     manifest = installed_manifest(root) or {
         "corpus": "Russian legal corpus",
-        "tool": {"name": "legal-corpus", "mvp_version": "0.1.0"},
+        "tool": {"name": "legal-corpus", "mvp_version": "0.1.1"},
         "documents": {},
         "parts": {},
     }
@@ -392,7 +392,7 @@ def cmd_install(args: argparse.Namespace) -> int:
 
     manifest = {
         "corpus": source_man.get("corpus", "Russian legal corpus"),
-        "tool": {"name": "legal-corpus", "mvp_version": "0.1.0"},
+        "tool": {"name": "legal-corpus", "mvp_version": "0.1.1"},
         "installed_at": utc_now(),
         "source_snapshot": str(source),
         "profile": args.profile,

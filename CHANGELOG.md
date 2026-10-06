@@ -8,6 +8,12 @@
 - Clarified standard user storage, explicit custom-path configuration, and the
   fact that downloaded corpus data is not committed to the repository.
 
+## [0.1.1] - 2026-10-06
+
+- Added bounded retries with exponential backoff and jitter for unstable
+  connections to source A.
+- Added handling for transient `URLError` and `ConnectionError` failures.
+
 ## [0.1.0] - 2026-10-05
 
 - Added the initial `min` and `max` document profiles.
