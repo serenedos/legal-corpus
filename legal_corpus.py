@@ -12,9 +12,11 @@ import hashlib
 import html as html_module
 import json
 import os
+import random
 import re
 import shutil
 import sys
+import time
 import urllib.parse
 import urllib.request
 import urllib.error
@@ -138,12 +140,20 @@ def sha256_bytes(data: bytes) -> str:
 
 
 def source_a_get(url: str, timeout: int = 180) -> bytes:
-    request = urllib.request.Request(url, headers={"User-Agent": "legal-corpus/0.1"})
-    try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
-            return response.read()
-    except urllib.error.URLError as error:
-        raise ValueError(f"Source A is unavailable: {error.reason}") from error
+    last_error: Exception | None = None
+    for attempt in range(1, 11):
+        request = urllib.request.Request(url, headers={"User-Agent": "legal-corpus/0.1"})
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                return response.read()
+        except urllib.error.URLError as error:
+            last_error = error
+        except ConnectionError as error:
+            last_error = error
+        if attempt < 10:
+            delay = min(30, 2 ** attempt) + random.uniform(0, 2)
+            time.sleep(delay)
+    raise ValueError(f"Source A is unavailable after 10 attempts: {last_error}") from last_error
 
 
 def source_a_json(url: str, timeout: int = 180) -> tuple[bytes, dict]:
